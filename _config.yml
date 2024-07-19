@@ -11,7 +11,7 @@ title: "Home"
 title_separator: "-"
 name: &name "Paul Templier"
 description: &description "personal description"
-url:  https://TemplierPaul.github.io # https://TemplierPaul.github.io or http://localhost:4000
+url:  "https://TemplierPaul.github.io" # https://TemplierPaul.github.io or http://localhost:4000
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "TemplierPaul/TemplierPaul.github.io"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -79,12 +79,12 @@ analytics:
 # Site Author
 author:
   name: "Paul Templier"
-  avatar: "profile.png"
-  bio: "PhD Student in Evolutionary Reinforcement Learning at ISAE SUPAERO"
+  avatar: "cv.jpg"
+  bio: "PhD, Engineer"
   location: "Toulouse"
   employer: "ISAE SUPAERO"
-  googlescholar: "https://scholar.google.com/citations?user=lPrCGzYAAAAJ&hl=fr&oi=ao"
-  email: paul.templier@isae-supaero.fr
+  googlescholar: "https://scholar.google.com/citations?user=lPrCGzYAAAAJ&hl=fr&oi=ao&sortby=pubdate"
+  email: templier.paul@gmail.com
   researchgate: # example: "https://www.researchgate.net/profile/yourprofile"
   uri:
   bitbucket:
