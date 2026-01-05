@@ -20,6 +20,7 @@ ninja.data = [
   {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
   {%- for p in sorted_pages -%}
     {%- if p.nav and p.autogen == null -%}
+      {%- if p.title != 'Blog' and p.title != 'Repositories' and p.title != 'Teaching' and p.title != 'Submenus' -%}
       {%- if p.dropdown -%}
         {%- for child in p.children -%}
           {%- unless child.title == 'divider' -%}
@@ -49,6 +50,7 @@ ninja.data = [
             window.location.href = "{{ url | relative_url }}";
           },
         },
+      {%- endif -%}
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}

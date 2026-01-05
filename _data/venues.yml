@@ -1,9 +1,19 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"GECCO":
+  url: https://gecco-2025.sigevo.org/
+  color: "#007bff"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"CEC":
+  url: https://wcci2024.org/
+  color: "#17a2b8"
 
-"Vision":
-  color: "#009f36"
+"ALIFE":
+  url: https://www.alife.org/
+  color: "#28a745"
+
+"PhD":
+  url: https://theses.fr/2024ESAE0020
+  color: "#6f42c1"
+
+"SIGEVOlution":
+  url: https://www.sigevolution.org/
+  color: "#fd7e14"

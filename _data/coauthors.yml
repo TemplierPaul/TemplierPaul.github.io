@@ -1,34 +1,52 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"cully":
+  - firstname: ["Antoine"]
+    url: https://www.imperial.ac.uk/people/a.cully
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"rachelson":
+  - firstname: ["Emmanuel"]
+    url: https://people.isae-supaero.fr/emmanuel-rachelson?lang=en
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"wilson":
+  - firstname: ["Dennis", "Dennis G.", "Dennis G"]
+    url: https://people.isae-supaero.fr/dennis-wilson?lang=en
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"lacan":
+  - firstname: ["Jérôme", "Jerome"]
+    url: https://personnel.isae-supaero.fr/jerome-lacan/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"grillotti":
+  - firstname: ["Luca"]
+    url: https://luca.grillotti.com/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"flageat":
+  - firstname: ["Manon"]
+    url: https://manon-but-yes.github.io/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"lim":
+  - firstname: ["Bryan"]
+    url: https://limbryan.github.io/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"coiffard":
+  - firstname: ["Lisa"]
+    url: https://linkedin.com/in/lisa-coiffard-b60340176
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"janmohamed":
+  - firstname: ["Hannah"]
+    url: https://scholar.google.com/citations?user=LIzoINkAAAAJ
+
+"labonte":
+  - firstname: ["David"]
+    url: https://profiles.imperial.ac.uk/d.labonte
+
+"kunze":
+  - firstname: ["Tarek"]
+    url: https://linkedin.com/in/tarek-kunze
+
+"lecarpentier":
+  - firstname: ["Erwan"]
+    url: https://erwanlecarpentier.github.io/
+
+"hervier":
+  - firstname: ["Lucas"]
+    url: https://github.com/lucashervier
+    
