@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "TemplierPaul/new_website",
+    "data-repo": "TemplierPaul/TemplierPaul.github.io",
     "data-repo-id": "",
     "data-category": "",
     "data-category-id": "",
