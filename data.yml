@@ -1,0 +1,689 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+pdf: true
+
+sidebar:
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Paul Templier
+  tagline: PhD, Engineer
+  avatar: cv.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: templier.paul@gmail.com
+  phone: +33 7 81 53 59 70
+  website: templierpaul.github.io/online-cv #do not add http://
+  linkedin: paul-templier
+  # xing: alandoe
+  github: TemplierPaul
+  scholar: "https://scholar.google.com/citations?user=lPrCGzYAAAAJ&hl=fr&oi=ao"
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  orcid: 0000-0001-8919-8639
+  # youtube: https://www.youtube.com/@paultemplier/videos
+  youtube: https://youtube.com/playlist?list=PLla08Hp5ANKCWlv0Whp_fz5JMVMTQU36T&si=Ycz4Yr1Q1n8wmF8n
+  bitbucket:
+  # twitter: '@webjeda'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf: PhD_CV.pdf
+
+  languages:
+    title: Languages
+    levels:
+      - idiom: French
+        level: Native
+
+      - idiom: English
+        level: Proficient - C2
+        level_full: Proficient - C2 (2017 Cambridge C2 Proficiency, 2024 UKVI C2)
+
+      - idiom: Spanish
+        level: Independant - B2
+
+    certifications:
+      - idiom: English
+        level: C2
+        date: 2024
+        from: UKVI
+
+      - idiom: English
+        level: C2
+        date: 2017
+        from: Cambridge
+
+
+  cs_languages:
+    title: Coding
+    info:
+      - idiom: Python
+        level: Proficient, teaching experience
+
+      - idiom: Jax, pytorch, sklearn, pandas, MPI, Ray
+        level: Computing tools
+
+      - idiom: SLURM, PBS
+        level: HPC frameworks
+
+      - idiom: C / Java / Julia
+        level: Academic experience
+
+      - idiom: JS / HTML / CSS
+        level: Side projects
+
+      # - idiom: Linux / Windows / MacOS
+      #   level: OS
+
+    by_category:
+      - category: Main
+        desc: Python / Jax (proficient, teaching experience)
+      - category: HPC
+        desc: SLURM, PBS, Apptainer, Ray, MPI4Py
+      - category: Academic
+        desc: C / Java / Julia (academic experience)
+      - category: Web
+        desc: JS / HTML / CSS (side projects)
+      - category: Other
+        desc: GDScript (game development in Godot), VBA (Excel), ROS (Robotics), \LaTeX 
+
+  interests:
+    title: Interests
+    info:
+      - item: Evolutionary computation
+      - item: Reinforcement Learning
+      - item: Robotics
+      - item: Evolution Strategies
+      - item: Machine Learning
+  hobbies:
+    title: Hobbies
+    info:
+    - item: Cooking / Baking
+    - item: Game development
+
+career-profile:
+  title: Career Profile
+  summary: |
+    I am a **Postdoctoral Researcher** in Antoine Cully's team at Imperial College London, UK, with a background in **Evolutionary Computation** and **Policy Search**.
+    I obtained my **PhD** in Machine Learning in 2024, studying the search for **intelligent agents** by combining **Evolution**, **Reinforcement Learning** and **Quality-Diversity** methods. My research is motivated by the study of **emergent behaviors** in complex systems, from artificial life to adaptive robotics, and cross-disciplinary collaborations with **biologists** and **roboticists**.
+
+# I specialize on learning methods that combine evolution, **Reinforcement Learning** and **Quality-Diversity**, and in my current postdoc I focus on their application to **adaptive and intelligent robotics**.
+# With a background in engineering combined with experience in consulting and teaching, I have built a wide range of skills to be comfortable at all stages of development: from research to implementation, from technical depth to high-level communication, from individual work to team collaboration.
+    
+
+education:
+  title: Education
+  info:
+    - degree: PhD in Machine Learning
+      university: ISAE-SUPAERO, Toulouse, France
+      link: https://www.isae-supaero.fr/en/academics/ingenieur-isae-supaero-msc/presentation/
+      time: 2021-2024
+      details: |
+        PhD in evolutionary machine learning, focusing on the optimization of neural networks with Evolution Strategies, their interactions with Deep Reinforcement Learning and Quality-Diversity.
+
+    - degree: MSc in Operations Research
+      university: ISAE-SUPAERO, Toulouse, France
+      link: https://www.isae-supaero.fr/fr/
+      time: 2019-2020
+      details: |
+        Additional MSc coupled with the Data Science specialization with classes on:
+          - Optimization, 
+          - Advanced combinatorial optimization
+          - Stochastic and evolutionary methods
+
+    - degree: MSc in Engineering
+      university: ISAE-SUPAERO, Toulouse, France
+      link: https://www.isae-supaero.fr/en/academics/ingenieur-isae-supaero-msc/presentation/
+      time: 2016-2020
+      details: |
+        Masters in general engineering, applied to aerospace problems. Specialized in Data Science (major) and Robotics (minor). GPA: 4.18.
+        Research projects:
+          - Deep Learning to solve NP-hard problems
+          - Deep Reinforcement Learning for human-machine cooperation.
+
+    - degree: CPGE PTSI / PT*
+      university: Lycée J-B Say, Paris, France 
+      time: 2014-2016
+      details: |
+        Preparation for national competitive exams leading to French "Grandes Ecoles”.   
+        Ranked (among 2556 candidates):
+        - 28th at "Concours Commun Mines-Pont PT"
+        - 33rd at "Concours Centrale-Supélec PT".
+
+experiences:
+  title: Work Experiences
+  info:
+    - role: Postdoctoral Research Associate
+      time: Aug 2024-Present
+      company: Imperial College London, UK
+      link: https://www.imperial.ac.uk/adaptive-intelligent-robotics/
+      supervised:
+        - name: Antoine Cully
+          link: https://www.imperial.ac.uk/people/a.cully
+
+      details: |
+        Postdoctoral Researcher at Imperial College London focusing on adaptive and intelligent robotics within the DARPA-funded Learning INtrospective Control (LINC) program, while continuing research on evolutionary methods and Quality-Diversity.
+
+    - role: PhD in Machine Learning
+      time: 2021-2024
+      company: ISAE-SUPAERO, Toulouse, France
+      link: https://www.isae-supaero.fr/fr/
+      supervised:
+        - name: Emmanuel Rachelson,
+          link: https://people.isae-supaero.fr/emmanuel-rachelson?lang=en
+        - name: Dennis G. Wilson
+          link: https://people.isae-supaero.fr/dennis-wilson?lang=en
+      details: |
+        Research on Evolution Strategies for policy search, covering deep RL, Quality-Diversity, Genetic Programming.
+        Teaching: 150h in Python and Evolutionary Computation. Co-supervision of an intern leading to a CEC paper.
+
+    - role: Visiting PhD Student
+      time: Mar-Jul 2023
+      company: Imperial College London, UK
+      link: https://www.imperial.ac.uk/adaptive-intelligent-robotics/
+      supervised:
+        - name: Antoine Cully
+          link: https://www.imperial.ac.uk/people/a.cully
+
+      details: |
+        Visiting student at Antoine Cully's Adaptative & Intelligent Robotics Lab (AIRL) at Imperial College London, focusing Evolutionary RL and mixes of ES with Quality-Diversity. This collaboration lead to 2 published articles and a postdoc. 
+
+    - role: Research Intern
+      time: May-Nov 2020
+      company: ISAE-SUPAERO, Toulouse, France
+      link: https://www.isae-supaero.fr/fr/
+      supervised:
+        - name: Dennis G. Wilson
+          link: https://people.isae-supaero.fr/dennis-wilson?lang=en
+
+      details: |
+        Evolution of neural networks with genetic algorithms for to video games. Implementing NEAT, HyperNEAT in Julia. Ranked first in the GECCO 2020 competition on evolving a DOTA 2 bot.
+
+    # - role: Member of the Board
+    #   time: 2017-2020
+    #   company: ISAE-SUPAERO, Toulouse, France
+    #   link: https://www.isae-supaero.fr/fr/
+    #   details: |
+    #     Elected mandate as Students Representative on the ISAE-SUPAERO board.
+
+    - role: Cybersecurity Consultant
+      time: Feb-Aug 2019
+      company: Wavestone, Paris, France
+      link: https://www.wavestone.com/en/
+      details: |
+        Internship subject: uses of AI for cybersecurity intrusion detection & response, implementation of a PoC. 
+        Other missions: EBIOS risk analysis, impacts on cybersecurity of emerging technologies (i.e. quantum computing).
+
+    - role: CEO's Right Hand
+      time: Jul-Dec 2018
+      company: Pricemoov, Paris, France
+      link: https://pricemoov.com/
+      details: |
+        Leading high-stake international projects with long-term implications in an AI-focused startup.
+      # Structuring internal processes and implementing management KPIs.
+
+    # - role: Quality-Audit analyst
+    #   time: 2016-2018
+    #   company: SUPAERO Junior Conseil, Toulouse
+    #   link: https://www.supaerojuniorconseil.com/
+    #   details: |
+    #     Continuous improvement of ISAE-Supaero’s Junior-Entreprise processes, developing tools in Excel / VBA. Member of the Strategic Guidance Board until 2021.
+
+    # - role: Member of the Board
+    #   time: 2015-2016
+    #   company: Lycée J-B Say, Paris
+    #   link: http://lyc-jb-say.scola.ac-paris.fr/
+    #   details: |
+    #     Elected mandate as CPGE Students Representative on the board of Lycée J-B Say.
+
+teaching:
+  - degree: Evolutionary Computation
+    university: ISAE-SUPAERO
+    link: https://d9w.github.io/evolution/
+    time: 2021-2022-2024
+    length: 40h total
+    supervised:
+      - name: Dennis G. Wilson
+        link: https://people.isae-supaero.fr/dennis-wilson?lang=en
+    details: |
+      Elective module on evolutionary computation for students in their 1st year of MEng program. Teaching:
+        - Evolution Strategies
+        - Evolution of neural networks
+        - Genetic representation and operator design
+        - Quality-diversity approaches, evolution of behavior, coevolution
+        - Final project supervision: policy search for soft robots with ES
+
+  - degree: Python - Algorithm and Computing
+    university: ISAE-SUPAERO
+    link: https://www.isae-supaero.fr/fr/formations/formation-ingenieur-par-apprentissage/le-cursus-85/
+    time: 2021-2022-2023
+    length: 100h total
+    supervised:
+      - name: Jérôme LACAN
+        link: https://personnel.isae-supaero.fr/jerome-lacan/
+    details: |
+      Teaching python to students in the FISA program and MSc in Aerospace Engineering:
+        - Basics of Python and algorithms
+        - 3D representation of planet movements
+        - Introduction to embedded systems with Micro:Bit
+
+  # - degree: Python - Algorithm and Computing
+  #   university: ISAE-SUPAERO
+  #   link: https://www.isae-supaero.fr/fr/formations/masters/master-of-science-in-aerospace-engineering/
+  #   time: Oct 2022
+  #   length: 5h
+  #   supervised:
+  #     - name: Jérôme LACAN
+  #       link: https://personnel.isae-supaero.fr/jerome-lacan/
+  #   details: |
+  #     Python class for students from the Master of Science in Aerospace Engineering.
+
+  - degree: Bash & Python
+    university: ISAE-SUPAERO
+    link: https://www.isae-supaero.fr/fr/formations/formation-ingenieur-par-apprentissage/le-cursus-85/
+    time: 2022-2023
+    length: 20h
+    supervised:
+      - name: Dennis G. Wilson
+        link: https://people.isae-supaero.fr/dennis-wilson?lang=en
+    details: |
+      Introduction to Bash, Git and Python for students in the last year of the MEng. program.
+
+  # - degree: Evolutionary Computation
+  #   university: ISAE-SUPAERO
+  #   link: https://d9w.github.io/evolution/
+  #   time: April 2022
+  #   length: 18h
+  #   supervised:
+  #     - name: Dennis G. Wilson
+  #       link: https://people.isae-supaero.fr/dennis-wilson?lang=en
+  #   details: |
+  #     Elective module on evolutionary computation for students in their 1st year of MSc Eng. I supervised group projects for the evaluation of the module and gave 3 classes:
+  #       - Evolution of neural networks
+  #       - Genetic representation and operator design
+  #       - Quality-diversity approaches, evolution of behavior, coevolution
+      
+  # - degree: Python - Algorithm and Computing
+  #   university: ISAE-SUPAERO
+  #   link: https://www.isae-supaero.fr/fr/formations/formation-ingenieur-par-apprentissage/le-cursus-85/
+  #   time: Oct-Dec 2021
+  #   length: 30h
+  #   supervised:
+  #     - name: Jérôme LACAN
+  #       link: https://personnel.isae-supaero.fr/jerome-lacan/
+  #   details: |
+  #     Teaching python to students in the FISA program:
+  #       - Basics of Python and algorithms
+  #       - 3D representation of planet movements
+  #       - Introduction to embedded systems with Micro:Bit
+
+  # - degree: Evolutionary Computation
+  #   university: ISAE-SUPAERO
+  #   link: https://d9w.github.io/evolution/
+  #   time: May 2021
+  #   length: 4h
+  #   supervised:
+  #     - name: Dennis G. Wilson
+  #       link: https://people.isae-supaero.fr/dennis-wilson?lang=en
+  #   details: |
+  #     Elective module on evolutionary computation for students in their 1st year of MSc Eng. I gave 2 classes of the module: 
+  #       - Evolution of neural networks
+  #       - Quality-diversity approaches, evolution of behavior, coevolution
+
+lab_life:
+  title: Research life contributions
+  intro: >
+    I believe one's contribution to the scientific community also lies in the support and organization of research activities. Here are some of the ways I try to contribute:
+
+  contributions:
+    - title: Peer Review
+      short_title: Review
+      details: Reviewer for GECCO (2023-2024-2025), IEEE TEVC (2024), ALIFE (2025). Outstanding Reviewer award at GECCO 2025.
+
+    - title: MSc students
+      short_title: Supervision
+      details: Co-supervised Tarek Kunze's MSc thesis on the meta-evolution of neural network encodings (2024), leading to a CEC 2024 paper. Co-supervised Will Foster's MSc project at ICL on QD+LLM for image generation (2025).
+      link: "https://arxiv.org/pdf/2403.14019"
+
+    - title: ICARL seminars
+      short_title: ICARL
+      link: https://icarl.doc.ic.ac.uk/home
+      details: Part of the Imperial College Autonomous Reasoning & Learning seminars organization team (2025).
+
+    - title: Interviews (AIRL)
+      short_title: Hiring
+      details: Participated in the hiring process for 4 postdoc positions in my Imperial College lab (2024). In charge of technical interviews for PhD student applications (2025).
+
+    - title: Students Representative (2015-2020)
+      short_title: Mandates
+      details: Elected mandates as Students Representative on the ISAE-SUPAERO board (2017-2020), and as CPGE Students Representative on the board of Lycée J-B Say (2015-2016).
+    
+
+
+
+projects:
+  title: Side projects
+  intro: >
+    Here are some of the recent projects I worked on, either during my PhD or my Masters degree, or as personal side projects.
+
+  assignments:
+    - title: Hydra HPC
+      # link: https://github.com/TemplierPaul/hydra-plugins
+      tagline: Hydra plugin to automate the deployment of experiments on HPC clusters with PBS. Handles sweeps and singularity container building. 
+      date: 2024-11-19
+      collection: Tool  
+
+    - title: Multidimensional Genetic Programming for multiclass classification
+      short_title: GP for ML
+      link: "https://github.com/TemplierPaul/Multidimensional-genetic-programming-for-multiclass-classification"
+      tagline: Jupyter notebook implementing, presenting and explaining a research paper for Data Science specialization.
+      date: 2020-01-28
+      collection: Masters project
+
+    - title: Genepy
+      link: "https://github.com/TemplierPaul/Genepy"
+      tagline: Artificial life simulation in a 2D environment, with a custom implementation of NEAT for the brains.
+      date: 2020-01-31
+      collection: Personal Project
+
+    - title: GroinkBot
+      link: "https://github.com/GroinkIndustries/GroinkBot"
+      tagline: Multi-platform chatbot framework (pre-LLM), based on a modular architecture and with a high-level interface. Run from a custom app management system with a web interface. Deployed for 2 years on Twitch with real users.
+      date: 2021-01-01
+      collection: Personal Project
+
+    - title: Compute
+      link: https://github.com/TemplierPaul/Compute
+      tagline: Python tool to easily configure and run experiments on remote hosts with pre-defined configurations through SSH
+      date: 2022-01-01
+      collection: Tool  
+
+    - title: Solvers
+      link: "https://github.com/TemplierPaul/Solvers"
+      tagline: Bruteforce solvers for puzzle games like Minesweeper or Scrabble. 
+      date: 2023-01-01
+      collection: Personal Project
+
+oss:
+    title: OSS Contributions
+    # intro: >
+      # Contributions to other Open-Source Software projects
+    main_dev:
+      - title: QDax
+        link: "https://github.com/adaptive-intelligent-robotics/QDax"
+        tagline: "Core contributor of the QDax library, the accelerated Quality-Diversity library for JAX, from v.0.5.0. Spin-off personal projects include QDax-ES (QDax with Evolution Strategies) and QDax-Benchmark (normalized QDax pipeline for reproducibility)."
+
+      - title: Kheperax
+        link: "https://github.com/adaptive-intelligent-robotics/Kheperax"
+        tagline: "Core contributor of the Kheperax library, a high-performance JAX-powered simulator for robotic navigation in 2D mazes."
+
+      # - title: QDax with ES
+      #   link: "https://github.com/TemplierPaul/QDax_ES"
+      #   tagline: "Quality-Diversity with Evolution Strategies: extending the QDax library with Evosax integration"
+
+      - title: BERL
+        link: "https://github.com/TemplierPaul/BERL"
+        tagline: "Benchmarking Evolutionary Reinforcement Learning: a python framework to test and evaluate Evolution Strategies for RL tasks, with MPI parallelism for multi-node experiments."
+        date: 2022-01-01
+        collection: ML Research
+
+      # - title: GENE.jl
+      #   link: "https://github.com/TemplierPaul/GENE.jl"
+      #   tagline: A Geometric Encoding for Neural Network Evolution
+      #   date: 2021-06-01
+      #   collection: ML Research
+
+      - title: Neuro-Evolution.jl
+        link: "https://github.com/TemplierPaul/NeuroEvolution.jl"
+        tagline: A Julia implementation of NEAT-based neuroevolution algorithms (NEAT, CPPN, HyperNEAT)
+        date: 2020-09-01
+        collection: ML Research
+    
+    # contributor:
+    #   - title: QDax 
+    #     link: "https://github.com/adaptive-intelligent-robotics/QDax"
+    #     tagline: "Accelerated Quality-Diversity: contributing features to the QDax library from 0.5.0"
+
+    #   - title: Kheperax
+    #     link: "https://github.com/adaptive-intelligent-robotics/Kheperax"
+    #     tagline: "High-performance JAX-powered simulator for robotic navigation in 2D mazes"
+
+    
+
+publications:
+  title: Publications
+  manuscript:
+    - title: "Leveraging Structures in Evolutionary Neural Policy Search"
+      # link: "assets/manuscript.pdf"
+      pdf: "https://theses.fr/api/v1/document/2024ESAE0020"
+      link: "https://theses.fr/2024ESAE0020"
+      # code: "https://github.com/TemplierPaul/pyUCEA"
+      # defense: "TODO"
+      authors: Paul Templier
+      date: 2024
+      # blog: #
+      tldr: "While training an artificial agent for complex tasks like driving a car, mastering a video game, or controlling plasma in a nuclear fusion reactor, innovations can lead to intelligent behavior. In such scenarios, a promising approach is to mimick the natural world's evolutionary process, which has honed the problem-solving capabilities of animal brains. Evolutionary Neural Policy Search (ENPS) draws inspiration from this concept. It creates a diverse population of ``brains'' represented by neural networks, allowing the system to ``evolve'' by selectively combining and mutating successful individuals. This thesis delves into the core components of ENPS and their intricate interplay. By analyzing the structures of ENPS, the goal is to design novel policy search methods that enhance these components, ultimately leading to the development of more efficient and effective learning algorithms for complex tasks."
+
+  intro_research: |
+    Peer reviewed:
+  research:
+    - title: "Time to Play: Simulating Early-Life Animal Dynamics Enhances Robotics Locomotion Discovery"
+      link: "https://arxiv.org/pdf/2509.11755"
+      authors: Paul Templier, Hannah Janmohamed, David Labonte, Antoine Cully
+      conference: ALIFE 2025
+      date: 2025-09-15
+      tldr: "Inspired by biological growth, we propose SMOL to dynamically modulate robot strength during learning. This curriculum helps agents leverage advantageous physics early on, improving both performance and behavior diversity."
+      excerpt: "Developmental changes in body morphology profoundly shape locomotion in animals, yet artificial agents and robots are typically trained under static physical parameters. Inspired by ontogenetic scaling of muscle power in biology, we propose Scaling Mechanical Output over Lifetime (SMOL), a novel curriculum that dynamically modulates robot actuator strength to mimic natural variations in power-to-weight ratio during growth and ageing. Integrating SMOL into the MAPElites quality-diversity framework, we vary the torque in standard robotics tasks to mimic the evolution of strength in animals as they grow up and as their body changes. Through comprehensive empirical evaluation, we show that the SMOL schedule consistently elevates both performance and diversity of locomotion behaviours across varied control scenarios, which we hypothesise to be thanks to agents leveraging advantageous physics early on to discover skills that act as stepping stones when they reach their final standard body properties. Based on studies of the total power output in humans, we also implement the SMOL-Human schedule that models isometric body variations due to non-linear changes like puberty, and study its impact on robotics locomotion."
+
+    - title: Overcoming Deceptiveness in Fitness Optimization with Unsupervised Quality-Diversity
+      link: "https://dl.acm.org/doi/10.1145/3712256.3726314"
+      authors: Lisa Coiffard, Paul Templier, Antoine Cully
+      conference: GECCO 2025
+      date: 2025-07-01
+      tldr: AURORA-XCon extends unsupervised Quality-Diversity (QD) to solve deceptive optimization problems without expert-defined descriptors, even out-performing traditional QD methods with hand-crafted features.
+      excerpt: "Policy optimization seeks the best solution to a control problem according to an objective or fitness function, serving as a fundamental field of engineering and research with applications in robotics. Traditional optimization methods like reinforcement learning and evolutionary algorithms struggle with deceptive fitness landscapes, where following immediate improvements leads to suboptimal solutions. Quality-diversity (QD) algorithms offer a promising approach by maintaining diverse intermediate solutions as stepping stones for escaping local optima. However, QD algorithms require domain expertise to define hand-crafted features, limiting their applicability where characterizing solution diversity remains unclear. In this paper, we show that unsupervised QD algorithms - specifically the AURORA framework, which learns features from sensory data - efficiently solve deceptive optimization problems without domain expertise. By enhancing AURORA with contrastive learning and periodic extinction events, we propose AURORA-XCon, which outperforms all traditional optimization baselines and matches, in some cases even improving by up to 34%, the best QD baseline with domain-specific hand-crafted features. This work establishes a novel application of unsupervised QD algorithms, shifting their focus from discovering novel solutions toward traditional optimization and expanding their potential to domains where defining feature spaces poses challenges."
+
+    - title: "Quality with Just Enough Diversity in Evolutionary Policy Search"
+      link: "https://arxiv.org/abs/2405.04308"
+      code: "https://github.com/TemplierPaul/QDax_ES"
+      authors: Paul Templier, Luca Grillotti, Emmanuel Rachelson, Dennis G. Wilson, Antoine Cully
+      conference: GECCO 2024
+      award: Best Paper Award
+      # note: GECCO 24 Best Paper Award
+      date: 2024-07-01
+      video: https://youtu.be/ItvUdbMc1zg
+      # blog: #
+      tldr: Quality with Just Enough Diversity (JEDi) uses behavior information from Quality-Diversity to improve the search capabilities of ES, by learning and focusing on interesting behaviors. (Follow-up work under review).
+      excerpt: "Evolution Strategies (ES) are effective gradient-free optimization methods that can be competitive with gradient-based approaches for policy search. ES only rely on the total episodic scores of solutions in their population, from which they estimate fitness gradients for their update with no access to true gradient information. However this makes them sensitive to deceptive fitness landscapes, and they tend to only explore one way to solve a problem. Quality-Diversity methods such as MAP-Elites introduced additional information with behavior descriptors (BD) to return a population of diverse solutions, which helps exploration but leads to a large part of the evaluation budget not being focused on finding the best performing solution. Here we show that behavior information can also be leveraged to find the best policy by identifying promising search areas which can then be efficiently explored with ES. We introduce the framework of Quality with Just Enough Diversity (JEDi) which learns the relationship between behavior and fitness to focus evaluations on solutions that matter. When trying to reach higher fitness values, JEDi outperforms both QD and ES methods on hard exploration tasks like mazes and on complex control problems with large policies."
+
+
+    - title: "Genetic Drift Regularization: on preventing Actor Injection from breaking Evolution Strategies"
+      link: "https://arxiv.org/abs/2405.04322"
+      # code: "https://github.com/TemplierPaul/pyUCEA"
+      video: "https://youtu.be/B1Fk4K_pJtw"
+      authors: Paul Templier, Emmanuel Rachelson, Antoine Cully, Dennis G. Wilson
+      conference: IEEE CEC 2024 
+      date: 2024-07-01
+      # blog: #
+      tldr: By studying the injection of an RL actor into an ES population, we show they drift apart genetically, which can lead to the ES breaking. We introduce GDR, a simple regularization in the actor training loss, to fix it.
+      excerpt: "Evolutionary Algorithms (EA) have been successfully used for the optimization of neural networks for policy search, but they still remain sample inefficient and underperforming in some cases compared to gradient-based reinforcement learning (RL). Various methods combine the two approaches, many of them training a RL algorithm on data from EA evaluations and injecting the RL actor into the EA population. However, when using Evolution Strategies (ES) as the EA, the RL actor can drift genetically far from the the ES distribution and injection can cause a collapse of the ES performance. Here, we highlight the phenomenon of genetic drift where the actor genome and the ES population distribution progressively drift apart, leading to injection having a negative impact on the ES. We introduce Genetic Drift Regularization (GDR), a simple regularization method in the actor training loss that prevents the actor genome from drifting away from the ES. We show that GDR can improve ES convergence on problems where RL learns well, but also helps RL training on other tasks, , fixes the injection issues better than previous controlled injection methods."
+
+    - title: "Searching Search Spaces: Meta-evolving a Geometric Encoding for Neural Networks"
+      link: "https://arxiv.org/pdf/2403.14019"
+      code: "https://github.com/arxaqapi/gene.jax"
+      authors: Tarek Kunze, Paul Templier, Dennis G. Wilson
+      conference: IEEE CEC 2024 
+      date: 2024-07-01
+      # blog: #
+      tldr: The Geometric Encoding for Neural Network Evolution (GENE) relies on pseudo-distance functions to encode neural networks as smaller genomes. Using Genetic Programming as a meta-evolution loop, we learned a new encoding based on GENE. The discovered encoding makes sparse networks emerge naturally. 
+      excerpt: "In evolutionary policy search, neural networks are usually represented using a direct mapping: each gene encodes one network weight. Indirect encoding methods, where each gene can encode for multiple weights, shorten the genome to reduce the dimensions of the search space and better exploit permutations and symmetries. The Geometric Encoding for Neural network Evolution (GENE) introduced an indirect encoding where the weight of a connection is computed as the (pseudo-)distance between the two linked neurons, leading to a genome size growing linearly with the number of genes instead of quadratically in direct encoding. However GENE still relies on hand-crafted distance functions with no prior optimization. Here we show that better performing distance functions can be found for GENE using Cartesian Genetic Programming (CGP) in a meta-evolution approach, hence optimizing the encoding to create a search space that is easier to exploit. We show that GENE with a learned function can outperform both direct encoding and the hand-crafted distances, generalizing on unseen problems, and we study how the encoding impacts neural network properties. "
+
+    - title: "LUCIE: An Evaluation and Selection Method for Stochastic Problems"
+      link: "https://dl.acm.org/doi/10.1145/3512290.3528838"
+      code: "https://github.com/TemplierPaul/pyUCEA"
+      authors: Erwan Lecarpentier*, Paul Templier*, Emmanuel Rachelson, Dennis G. Wilson
+      conference: GECCO 2022 
+      date: 2022-06-08
+      # blog: #
+      tldr: To tackle the impact of uncertain evaluations in genetic algorithms, we introduce LUCIE, a resampling scheme based on a bandit approach. LUCIE is able to better select elite individuals, making the GA more robust to noise. (*equal contribution)
+      excerpt: Selection in genetic algorithms is difficult for stochastic problems due to noise in the fitness space. Common methods to deal with this fitness noise include sampling multiple fitness values, which can be expensive. We propose LUCIE, the Lower Upper Confidence Intervals Elitism method, which selects individuals based on confi- dence. By focusing evaluation on separating promising individuals from others, we demonstrate that LUCIE can be effectively used as an elitism mechanism in genetic algorithms. We provide a theoretical analysis on the convergence of LUCIE and demonstrate its ability to select fit individuals across multiple types of noise on the OneMax and LeadingOnes problems. We also evaluate LUCIE as a selection method for neuroevolution on control policies with stochastic fitness values.
+
+    - title: A Geometric Encoding for Neural Network Evolution
+      link: "https://dl.acm.org/doi/10.1145/3449639.3459361"
+      code: "https://github.com/TemplierPaul/GENE.jl"
+      video: "https://www.youtube.com/watch?v=ovTxliLnKio"
+      authors: Paul Templier, Emmanuel Rachelson, Dennis G. Wilson
+      conference: GECCO 2021 
+      date: 2021-06-01
+      # blog: #
+      tldr: Directly optimizing the weights of a neural network with evolution can get expensive, especially with methods like XNES or CMAES. We introduce GENE, a new method to encode neural networks as genomes which keeps the performance of direct encoding while reducing the size of the genome by an order of magnitude.
+      excerpt: A major limitation to the optimization of artificial neural networks (ANN) with evolutionary methods lies in the high dimensionality of the search space, the number of weights growing quadratically with the size of the network. This leads to expensive training costs, especially in evolution strategies which rely on matrices whose sizes grow with the number of genes. We introduce a geometric encoding for neural network evolution (GENE) as a representation of ANN parameters in a smaller space that scales linearly with the number of neurons, allowing for efficient parameter search. Each neuron of the network is encoded as a point in a latent space and the weight of a connection between two neurons is computed as the distance between them. The coordinates of all neurons are then optimized with evolution strategies in a reduced search space while not limiting network fitness and possibly improving search.
+
+    - title: "Evolving a Dota 2 bot: Illuminating search in CGP and NEAT"
+      link: "https://raw.githubusercontent.com/d9w/DotaBot/master/article.pdf"
+      code: "https://github.com/d9w/DotaBot"
+      authors: Paul Templier, Lucas Hervier, Dennis G. Wilson
+      conference: GECCO 2020
+      date: 2020-06-01
+      # blog: #
+      tldr: GECCO 2020 competition on evolving a Dota 2 bot, with a CGP and NEAT implementation, Quality-Diversity for exploration and a neural-based world model.
+      excerpt: In this work we present an evolution-based approach applied to Dota 2 in the Project Breezy challenge. The goal of this project is to train an agent to play a 1v1 Midlane match against the game's bots of varrying difficulties, with both sides playing Shadow Fiend. The approach we implemented relies on the MAP-elites algorithm assisted with a neural-based simulator of the game to increase behavior diversity and reduce computation load, using CGP agents or NEAT networks as individuals.
+
+  intro_articles: |
+    Blog articles:
+  articles:
+    - title: "Leveraging Structures in Evolutionary Neural Policy Search"
+      link: https://dl.acm.org/doi/10.1145/3733097.3733101
+      authors: Paul Templier
+      conference: ACM SIGEVOlution
+      date: 2025
+
+    - title: Detecting security incidents with Machine Learning (FR)
+      link: "https://www.riskinsight-wavestone.com/2019/08/detecter-incidents-machine-learning/"
+      authors: Paul Templier, Hugo Moret
+      conference: RiskInsight blog (Wavestone)
+      date: 2019
+
+    - title: Security of instant messaging applications (FR)
+      link: "https://www.riskinsight-wavestone.com/2019/07/messagerie-instantanee/"
+      authors: Paul Templier, Wajih Jmaiel
+      conference: RiskInsight blog (Wavestone)
+      date: 2019
+
+talks:
+  recorded_talks:
+    - title: "Tutorial: Evolutionary Reinforcement Learning"
+      place: GECCO 2025
+      link: https://gecco-2025.sigevo.org/Tutorial?itemId=5125
+      date: July 2025
+      details: "GECCO tutorial on EvoRL given with Antoine Cully, Manon Flageat, and Bryan Lim. Attendance: 100 people."
+
+    - title: Quality with Just Enough Diversity in Evolutionary Policy Search
+      place: GECCO 2024 (recorded)
+      link: https://www.youtube.com/watch?v=ovTxliLnKio
+      date: August 2024
+      details: Presenting our JEDi paper at GECCO 2024. The video was pre-recorded, and the live talk was presented by Dennis Wilson.
+
+    - title: "Genetic Drift Regularization: on preventing Actor Injection from breaking Evolution Strategies"
+      place: CEC 2024 (Yokoama, Japan)
+      link: "https://youtu.be/B1Fk4K_pJtw"
+      date: 2 July 2024
+      details: Presenting our GDR paper at CEC 2024. The video was pre-recorded.
+
+    - title: Ma Thèse en 180 secondes - Regional Finals (FR)
+      place: Théâtre Sorano, Toulouse (460 people)
+      link: https://www.youtube.com/watch?v=07tJvEV6tOM
+      date: 25 March 2022
+      details: Regional finals of the MT180 competition, where PhD students have 3 minutes to explain their research topic to a broad public. 
+
+    - title: A Geometric Encoding for Neural Network Evolution
+      place: GECCO 2021 (online)
+      link: https://www.youtube.com/watch?v=ovTxliLnKio
+      date: 21 July 2021
+      details: Presenting our GENE paper at GECCO 2021. The video was pre-recorded.
+
+  research_presentations:
+    - title: Quality with Just Enough Diversity in Evolutionary Policy Search
+      place: Tsukuba University, Japan
+      date: 8 July 2024
+      details: Presenting my research on JEDi to Prof. Claus Aranha's team at Tsukuba University.
+
+    - title: Evolution Strategies for Policy Search
+      place: Imperial College London, UK 
+      date: 10 March 2023
+      details: Introduction presentation of my research to the AIRL lab at Imperial College London.
+
+    - title: Mid-PhD defense
+      place: ISAE-SUPAERO, France
+      date: 29 June 2022
+      details: Presentation to an external jury composed of Prof. Nikolaus Hansen and Prof. Olivier Sigaud.
+
+grants_awards:
+  title: Grants & Awards
+  grants:
+    - title: Visiting PhD Scholarship
+      amount: 10k€
+      date: 2023
+      details: |
+        Grant to visit the AIRL lab at Imperial College London for 4 months. Combines grants awarded by ISAE-SUPAERO and the EDMITT doctoral school. 
+
+    - title: PhD Scholarship
+      amount: 55k€
+      date: 2021-2024
+      details: |
+        3-year PhD scholarship from Région Occitanie, covering tuition fees and a monthly stipend.
+
+    - title: PhD Scholarship
+      amount: 37k€
+      date: 2021-2024
+      details: |
+        3-year PhD scholarship from ISAE-SUPAERO, to complete the Région Occitanie funding.
+
+  awards:
+    - title: "Outstanding Reviewer Award"
+      date: 2025
+      details: |
+        Outstanding Reviewer Award at GECCO 2025 in the NeuroEvolution track.
+
+    - title: "GECCO 2024: Best Paper Award"
+      date: 2024
+      link: "https://gecco-2024.sigevo.org/Best-Paper-Awards#CS_L4EC_Tracks"
+      details: |
+        Best Paper Award at GECCO 2024 for the article "Quality with Just Enough Diversity in Evolutionary Policy Search", in the combined tracks of Complex Systems and Learning for Evolutionary Computation.
+
+    - title: "GECCO 2020 Competition: Evolving a Dota 2 bot"
+      amount: First place
+      date: 2020
+      link: "https://gecco-2020.sigevo.org/index.html/Competitions#id_Dota%202%201-on-1%20Shadow%20Fiend%20Laning%20Competition"
+      details: |
+        First place at the GECCO 2020 competition on evolving a Dota 2 bot for 1v1 matches, with Lucas Hervier and Dennis Wilson.
+
+# skills:
+#   title: Skills &amp; Proficiency
+
+#   toolset:
+#     - name: Python
+#       level: 95%
+
+#     - name: Pytorch
+#       level: 80%
+
+#     - name: Julia
+#       level: 60%
+
+#     - name: Java / C / R
+#       level: 20%
+
+
+    # - name: Javascript / Google App Script
+    #   level: 20%
+
+    # - name: SQL / NoSQL
+    #   level: 20%
+
+footer: >
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
