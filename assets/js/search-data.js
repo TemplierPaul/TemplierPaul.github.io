@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/new_website/cv/";
@@ -180,7 +180,7 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://templierpaul.github.io/online-cv", "_blank");
+          window.open("https://sites.google.com/view/deep-rl-imperial/home", "_blank");
         },
       },{
       id: 'light-theme',
