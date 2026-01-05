@@ -53,6 +53,6 @@ scholar_userid: lPrCGzYAAAAJ # your Google Scholar ID
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 custom_social: # can be any name here other than the ones already defined above
-  logo: https://templierpaul.github.io/online-cv/assets/images/cv.jpg # can be png, svg, jpg
-  title: Full CV
-  url: https://templierpaul.github.io/online-cv
+  logo: assets/img/icarl.png
+  title: ICARL
+  url: https://sites.google.com/view/deep-rl-imperial/home
