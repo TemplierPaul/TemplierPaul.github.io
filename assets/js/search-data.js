@@ -30,14 +30,32 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-cooking",
+        },{id: "dropdown-blog",
+              title: "Blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "dropdown-cooking",
               title: "Cooking",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/recipes/";
               },
-            },{id: "books-the-godfather",
+            },{id: "post-custom-tree-lights",
+        
+          title: "Custom tree lights",
+        
+        description: "Can your Christmas tree run python code?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/christmas_tree/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
@@ -112,7 +130,7 @@ ninja.data = [{
               window.location.href = "/recipes/butternut_tatin/";
             },},{id: "recipes-chanteclair",
           title: 'Chanteclair',
-          description: "A French cake from Toulon with meringues and coffee ice cream.",
+          description: "A frozen French dessert from Toulon with meringues and coffee ice cream.",
           section: "Recipes",handler: () => {
               window.location.href = "/recipes/chanteclair/";
             },},{id: "recipes-galette-des-rois",
@@ -130,9 +148,9 @@ ninja.data = [{
           description: "Delicate Italian meringue macaron shells paired with a soft cream filling.",
           section: "Recipes",handler: () => {
               window.location.href = "/recipes/macarons/";
-            },},{id: "recipes-pulled-pork",
-          title: 'Pulled pork',
-          description: "Braised pork shoulder with a sweet and spicy glaze.",
+            },},{id: "recipes-beer-braised-gochujang-pulled-pork",
+          title: 'Beer-Braised Gochujang Pulled Pork',
+          description: "A fusion pulled pork recipe combining Korean fermented chili paste and beer for a savory, sticky glaze, braised with sweet potatoes.",
           section: "Recipes",handler: () => {
               window.location.href = "/recipes/pulled_pork/";
             },},{id: "recipes-saint-honoré",
