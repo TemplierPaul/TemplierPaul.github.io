@@ -2,7 +2,7 @@
 layout: page
 title: Lasagna al ragu
 description: A classic Italian pasta dish made with ground beef, tomato sauce, and cheese.
-img: 
+img: assets/img/recipes/lasagna/cooked.jpeg
 importance: 1
 category: main
 related_publications: false
@@ -12,6 +12,20 @@ related_publications: false
 This is my recipe for *lasagna al ragu*, the Italian pasta dish made with layers of pasta sheets, ragu, and bechamel sauce.
 It is based on a traditional *sofrito* (mirepoix) and beef / pork ragu, but with smoked pork and a little cardamom for more depth and complexity. I also add a slurry of corn starch to thicken the ragu. Season the ragu and bechamel a bit stronger than you would normally, as the lasagna is baked for a long time.
 Quantities are eyeballed for 1 large lasagna for 8+ people, adapt based on your taste. 
+
+
+<div class="row justify-content-center">
+    <div class="col-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/recipes/lasagna/uncooked.jpeg" title="Base with diplomat cream and choux." class="img-fluid rounded z-depth-1 object-fit-cover" min-height="250px" max-height="250px" width="auto" %}
+    </div>
+    <div class="col-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/recipes/lasagna/lasagna_two.jpeg" title="Base" class="img-fluid rounded z-depth-1 object-fit-cover" min-height="250px" max-height="250px" width="auto" %}
+    </div>
+</div>
+<div class="caption">
+    Lasagna before and after baking, with parmesan replaced by grated gruyère.
+</div>
+
 
 ## Ingredients
 
@@ -69,3 +83,9 @@ Quantities are eyeballed for 1 large lasagna for 8+ people, adapt based on your 
 5. For the final layer, place pasta sheets and cover entirely with the remaining bechamel (no ragu on top).
 6. Sprinkle the 100g of parmesan evenly over the top.
 7. Bake at 180°C for 40 minutes, or until the top is golden brown and the pasta is tender.
+
+<div class="row justify-content-center">
+    <div class="col-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/recipes/lasagna/lasagna_side.jpeg" title="Lasagna" class="img-fluid rounded z-depth-1 object-fit-cover" min-height="250px" max-height="250px" width="auto" %}
+    </div>
+</div>

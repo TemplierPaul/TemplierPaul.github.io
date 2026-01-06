@@ -32,6 +32,8 @@ My research is dedicated to understanding how intelligence emerges in complex sy
 
 My work ranges from theoretical contributions in evolutionary methods to practical applications in adaptive robotics, motivated by a single question: **how can we design learning processes that allow artificial agents to discover diverse, high-performing skills on their own**? 
 
+This work is supported by 14 years of programming experience in various languages, from C to Python, with a strong focus on [Jax](https://github.com/jax-ml/jax) in the last 3 years. This includes being a core contributor to [QDax](https://github.com/adaptive-intelligent-robotics/QDax) and [Kheperax](https://github.com/adaptive-intelligent-robotics/Kheperax), which support fast and scalable experimentation for Quality-Diversity methods.
+
 I also love cooking, so you can find some of my personal recipes in the [Cooking](recipes/) section. Feel free to try them out and let me know if you like them!
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

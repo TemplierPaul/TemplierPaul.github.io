@@ -6,4 +6,5 @@ img:
 importance: 1
 category: fun
 related_publications: false
+redirect: /blog/2025/christmas_tree/
 ---

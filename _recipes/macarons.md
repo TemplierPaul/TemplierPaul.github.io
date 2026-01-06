@@ -65,12 +65,12 @@ While simple in apparence, macarons require a lot of precision and attention to 
 7. Continue stirring until the mixture thickens significantly, ensuring it does not burn.
 8. Remove from heat and allow to cool completely before piping.
 
-<div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/recipes/macarons/lemon.jpeg" title="Base" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center">
+    <div class="col-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/recipes/macarons/lemon.jpeg" title="Base" class="img-fluid rounded z-depth-1 object-fit-cover" min-height="250px" max-height="250px" width="auto" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/recipes/macarons/mandarin.jpeg" title="Base with diplomat cream and choux." class="img-fluid rounded z-depth-1" %}
+    <div class="col-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/recipes/macarons/mandarin.jpeg" title="Base with diplomat cream and choux." class="img-fluid rounded z-depth-1 object-fit-cover" min-height="250px" max-height="250px" width="auto" %}
     </div>
 </div>
 <div class="caption">
@@ -99,12 +99,12 @@ Follow steps similar to the lemon cream, but use the puree instead of the juice.
 2. Poach the figs in white wine with spices and sugar.
 3. Blend the figs until smooth, adding a little wine if necessary to reach a smooth consistency.
 
-<div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/recipes/macarons/fig.jpeg" title="Base" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center">
+    <div class="col-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/recipes/macarons/fig.jpeg" title="Base" class="img-fluid rounded z-depth-1 object-fit-cover" min-height="250px" max-height="250px" width="auto" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/recipes/macarons/chocolate.jpeg" title="Base with diplomat cream and choux." class="img-fluid rounded z-depth-1" %}
+    <div class="col-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/recipes/macarons/chocolate.jpeg" title="Base with diplomat cream and choux." class="img-fluid rounded z-depth-1 object-fit-cover" min-height="250px" max-height="250px" width="auto" %}
     </div>
 </div>
 <div class="caption">

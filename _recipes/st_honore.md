@@ -70,15 +70,15 @@ related_publications: false
 2. Cook until the mixture reaches a light golden color.
 3. Remove from heat immediately.
 
-<div class="row">
-    <div class="col-sm-7 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/recipes/st_honore/pipe.jpeg" title="Pipe choux pastry" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center">
+    <div class="col-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/recipes/st_honore/pipe.jpeg" title="Pipe choux pastry" class="img-fluid rounded z-depth-1 object-fit-cover" min-height="250px" max-height="250px" width="auto" %}
     </div>
-    <div class="col-sm-2 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/recipes/st_honore/choux.jpeg" title="Cooked choux" class="img-fluid rounded z-depth-1" %}
+    <div class="col-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/recipes/st_honore/choux.jpeg" title="Cooked choux" class="img-fluid rounded z-depth-1 object-fit-cover" min-height="250px" max-height="250px" width="auto" %}
     </div>
-    <div class="col-sm-2 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/recipes/st_honore/choux_caramel.jpeg" title="Choux with caramel" class="img-fluid rounded z-depth-1" %}
+    <div class="col-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/recipes/st_honore/choux_caramel.jpeg" title="Choux with caramel" class="img-fluid rounded z-depth-1 object-fit-cover" min-height="250px" max-height="250px" width="auto" %}
     </div>
 </div>
 <div class="caption">
@@ -105,12 +105,12 @@ related_publications: false
 3. Bake for 30-35 minutes at 180°C.
 4. Dust with icing sugar after the first 20 minutes of baking.
 
-<div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/recipes/st_honore/base.jpeg" title="Base" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center">
+    <div class="col-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/recipes/st_honore/base.jpeg" title="Base" class="img-fluid rounded z-depth-1 object-fit-cover" min-height="250px" max-height="250px" width="auto" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/recipes/st_honore/add_cream.jpeg" title="Base with diplomat cream and choux." class="img-fluid rounded z-depth-1" %}
+    <div class="col-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/recipes/st_honore/add_cream.jpeg" title="Base with diplomat cream and choux." class="img-fluid rounded z-depth-1 object-fit-cover" min-height="250px" max-height="250px" width="auto" %}
     </div>
 </div>
 <div class="caption">
@@ -133,12 +133,12 @@ related_publications: false
 5. Using a Saint Honoré nozzle, pipe the mascarpone chantilly over the diplomat cream base to finish the cake.
 
 
-<div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/recipes/st_honore/final.jpeg" title="St Honoré with chantilly piped on top." class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center">
+    <div class="col-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/recipes/st_honore/final.jpeg" title="St Honoré with chantilly piped on top." class="img-fluid rounded z-depth-1 object-fit-cover" min-height="250px" max-height="250px" width="auto" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/recipes/st_honore/slice.jpeg" title="St Honoré sliced." class="img-fluid rounded z-depth-1" %}
+    <div class="col-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/recipes/st_honore/slice.jpeg" title="St Honoré sliced." class="img-fluid rounded z-depth-1 object-fit-cover" min-height="250px" max-height="250px" width="auto" %}
     </div>
 </div>
 <div class="caption">
