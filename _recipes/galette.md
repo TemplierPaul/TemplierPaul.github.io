@@ -23,10 +23,10 @@ This recipe for *Galette des Rois* uses a pure almond cream (frangipane) base, w
 
 ### Almond Filling
 
-* 140g almond flour
-* 100g fine sugar
-* 75g softened butter
-* 2 eggs
+* 200g almond flour
+* 150g fine sugar
+* 100g softened butter
+* 3 eggs
 * 50g toasted pine nuts
 
 ### Assembly & Pine Nut Crust
