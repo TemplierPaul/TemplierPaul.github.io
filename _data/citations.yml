@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-07'
+  last_updated: '2026-02-13'
 papers:
   lPrCGzYAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -34,7 +34,7 @@ papers:
     title: "LUCIE: An Evaluation and Selection Method for Stochastic Problems\u2013Appendix"
     year: '2022'
   lPrCGzYAAAAJ:qjMakFHDy7sC:
-    citations: 7
+    citations: 8
     title: Quality with Just Enough Diversity in Evolutionary Policy Search
     year: '2024'
   lPrCGzYAAAAJ:u-x6o8ySG0sC:
