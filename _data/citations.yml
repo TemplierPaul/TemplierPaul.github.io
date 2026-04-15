@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-13'
+  last_updated: '2026-04-15'
 papers:
   lPrCGzYAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -21,6 +21,10 @@ papers:
     citations: 0
     title: Evolutionary Reinforcement Learning
     year: '2025'
+  lPrCGzYAAAAJ:WF5omc3nYNoC:
+    citations: 0
+    title: Onboard MuJoCo-based Model Predictive Control for Shipboard Crane with Double-Pendulum Sway Suppression
+    year: '2026'
   lPrCGzYAAAAJ:Y0pCki6q_DkC:
     citations: 0
     title: Leveraging Structures in Evolutionary Neural Policy Search
@@ -46,6 +50,6 @@ papers:
     title: A geometric encoding for neural network evolution
     year: '2021'
   lPrCGzYAAAAJ:zYLM7Y9cAGgC:
-    citations: 2
+    citations: 4
     title: Overcoming Deceptiveness in Fitness Optimization with Unsupervised Quality-Diversity
     year: '2025'
